@@ -1,7 +1,25 @@
 aid: trustiq
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/trustiq.png
 name: TrustIQ
-description: TrustIQ is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: TrustIQ (operating as Trusting Social) is a Singapore-headquartered AI fintech
+  that provides alternative-data credit scoring, fraud detection, and digital identity
+  verification for lenders and consumer platforms across emerging Asian markets including
+  India, Indonesia, Vietnam, and the Philippines. Its products — Trust Scores (AI credit
+  and fraud scoring built from telco and alternative data), Trust Vision (facial-recognition
+  digital onboarding and KYC), and Smart Customer Acquisition — help financial institutions
+  extend credit to underbanked, new-to-credit consumers. Engagement is sales-led; the
+  company publishes no public self-service API, SDK, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/trustiq/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Credit Scoring
+- Fraud Detection
+- Identity Verification
+- Artificial Intelligence
+- Financial Services
+- Emerging Markets
+- Alternative Data
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/trustiq-domain-security.yml
 - type: Website
   url: https://trustingsocial.com
+- type: Blog
+  url: https://trustingsocial.com/blog/
+- type: PrivacyPolicy
+  url: https://trustingsocial.com/privacy-policy/
+- type: TermsOfService
+  url: https://trustingsocial.com/policy-terms/
+- type: Support
+  url: https://trustingsocial.com/contact-us/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
